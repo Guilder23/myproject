@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}"> <!-- Asegúrate de tener este archivo CSS -->
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Registro</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to my Django app!</h1>
+        <section>
+            <h2>About This App</h2>
+            <p>This application is designed to demonstrate the power and flexibility of Django as a web framework. You can register, log in, and interact with various features.</p>
+        </section>
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>User registration and authentication</li>
+                <li>Responsive design</li>
+                <li>Dynamic content generation</li>
+                <li>Easy-to-use interface</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Django App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
